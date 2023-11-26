@@ -18,7 +18,8 @@
 position: absolute;
 top: 80%; /* Yazının altına yerleştirildi, istediğiniz konuma göre ayarlayabilirsiniz */
 width: 100%;
-left: 45%;
+float: center;
+
 
 }
 
@@ -38,6 +39,10 @@ html, body {
 
 .Mahekjain-button-1 {
 all: unset;
+position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
 
 width: 100px;
 height: 30px;
